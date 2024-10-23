@@ -1,0 +1,11 @@
+.search {
+    outline: none;
+    background: transparent;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 40px 0;
+    padding: 12px 15px;
+    border: 1px solid blue;
+    font-size: 18px;
+    color: blue;
+}

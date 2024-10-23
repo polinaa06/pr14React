@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  transition: .5s;
+  font-family: 'Ubuntu';
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./assets/fonts/Ubuntu-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url(./assets/fonts/Ubuntu-Medium.ttf);
+  font-weight: 500;
+}
+
+body{
+  font-family: 'Ubuntu';
+  background-color: #F5F5F5;
+}
+
+.active {
+  color: #0009EA;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #0009EA;
+  font-size: 40px;
+}
+
+.slick-dots {
+  margin-bottom: -31px;
+}
+
+.slick-dots li button:before {
+  width: 12px;
+  color: #0009EA;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0009EA;
+}

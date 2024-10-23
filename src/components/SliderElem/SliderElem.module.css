@@ -1,0 +1,15 @@
+.slider_block {
+    width: 1300px;
+    margin: 130px auto;
+}
+
+.slider_block h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.slider {
+    width: 100%;
+    margin: 60px auto;
+}
+

@@ -1,0 +1,31 @@
+.accordeon_block {
+    width: 1300px;
+    margin: 100px auto;
+}
+
+.accordeon_block h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.accordeon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.item {
+    padding: 15px 5px;
+    border-bottom: 1px solid blue;
+    font-size: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
